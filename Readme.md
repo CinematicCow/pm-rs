@@ -72,14 +72,16 @@ sudo cp pm /usr/local/bin/
 
 ## Usage
 
-- Initialize pm <br/>
+- **Initialize pm** <br/>
+  <br/>
   First we need to initialize pm. This will create all the required folders and files locally, like a json-database.
 
   ```sh
   pm init
   ```
 
-- Add a new project <br/>
+- **Add a new project** <br/>
+  <br/>
   We can add a new project by specifying a name and the editor we want to use. For now there are 2 options for the editor, `neovim` & 'VScode'.
   Run `pm help add` to see more.
 
@@ -89,21 +91,24 @@ sudo cp pm /usr/local/bin/
   pm add -n "project name" -e vscode ~/Work/my-project
   ```
 
-- List projects <br/>
+- **List projects** <br/>
+  <br/>
   To list all projects you have
 
   ```sh
   pm list
   ```
 
-- Open a project <br/>
+- **Open a project** <br/>
+  <br/>
   You can open a project you added, in your selected editor, by specifying the project name
 
   ```sh
   pm open "project name"
   ```
 
-- Help <br/>
+- **Help** <br/>
+  <br/>
   To get help and see the list of commands
 
   ```sh
