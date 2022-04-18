@@ -18,6 +18,8 @@
 
 ![Downloads](https://img.shields.io/github/downloads/CinematicCow/pm-rs/total) ![Issues](https://img.shields.io/github/issues/CinematicCow/pm-rs) ![License](https://img.shields.io/github/license/CinematicCow/pm-rs)
 
+_Note_ : This is a alpha release. There may be breaking changes. I am not responsible for any harm caused to your system. **Please use it at your own risk**
+
 ## Table Of Contents
 
 - [About the Project](#about-the-project)
@@ -30,7 +32,7 @@
 - [Authors](#authors)
 - [Acknowledgements](#acknowledgements)
 
-## About The Project
+# About The Project
 
 ![Screen Shot](https://i.imgur.com/dcW7Tka.jpg)
 
@@ -38,7 +40,7 @@ I was tired of flying around in my terminal to navigate from one project to anot
 
 This is `pm`, a simple project manager of sorts written in rust. `pm` helps you open your frequently visited projects in one line. This is implemented for linux for now, but I will try to make it to work with windows too.
 
-## Built With
+# Built With
 
 `pm` is built with rust, the most beloved language, and it's not hard to see why. As a complete newbie to rust, it was pretty easy to get started and the community was also very helpful.
 
@@ -48,7 +50,7 @@ To get started with `pm`, you can either download the binary from the downloads 
 
 ### Installation
 
-1. Download the latest release from the (releases page)[https://github.com/CinematicCow/pm-rs/releases/tag/v0.1.0].
+1. Download the latest release from the [releases page](https://github.com/CinematicCow/pm-rs/releases/tag/v0.1.0).
 
 2. Go to the folder you downloaded too. For example, it was downloaded to the Downloads folder.
 
@@ -70,14 +72,14 @@ sudo cp pm /usr/local/bin/
 
 ## Usage
 
-- Initialize pm
+- Initialize pm <br/>
   First we need to initialize pm. This will create all the required folders and files locally, like a json-database.
 
   ```sh
   pm init
   ```
 
-- Add a new project
+- Add a new project <br/>
   We can add a new project by specifying a name and the editor we want to use. For now there are 2 options for the editor, `neovim` & 'VScode'.
   Run `pm help add` to see more.
 
@@ -87,22 +89,22 @@ sudo cp pm /usr/local/bin/
   pm add -n "project name" -e vscode ~/Work/my-project
   ```
 
-- List projects
+- List projects <br/>
   To list all projects you have
 
   ```sh
   pm list
   ```
 
-- Open a project
+- Open a project <br/>
   You can open a project you added, in your selected editor, by specifying the project name
 
   ```sh
   pm open "project name"
   ```
 
-- Help
-  To get help
+- Help <br/>
+  To get help and see the list of commands
 
   ```sh
   pm help
@@ -126,7 +128,7 @@ sudo cp pm /usr/local/bin/
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/CinematicCow/pm-rs/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/CinematicCow/pm-rs/blob/master/License) for more information.
 
 ## Authors
 
