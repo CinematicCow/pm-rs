@@ -50,7 +50,7 @@ To get started with `pm`, you can either download the binary from the downloads 
 
 ### Installation
 
-1. Download the latest release from the [releases page](https://github.com/CinematicCow/pm-rs/releases/tag/v0.1.0).
+1. Download the latest release from the [releases page](https://github.com/CinematicCow/pm-rs/releases).
 
 2. Go to the folder you downloaded too. For example, it was downloaded to the Downloads folder.
 
